@@ -6,7 +6,7 @@ resource:
   aws_instance:
     koding-instance:
       root_block_device:
-        volume_size: 30
+        volume_size: 40
       instance_type: c3.xlarge
       ami: ''
       tags:
